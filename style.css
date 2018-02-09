@@ -1,0 +1,172 @@
+*
+{
+	box-sizing:border-box;
+}
+#row1
+{
+	width:90%;
+	margin:10px auto;
+	overflow:hidden;
+	padding-left:150px;
+}
+#row2
+{
+width:90%;
+margin:100px auto;
+overflow:hidden;
+padding-left:70px;
+}
+#row3
+{
+	width:90%;
+	margin:0 auto;
+	padding-left:150px;
+	overflow:hidden;
+}
+#row2>div
+{
+	float:left;
+	width:200px;
+	height:140px;
+	margin-left:60px;
+	margin-right:30px;
+	position:relative;
+}
+.twovert,.twohoriz
+{
+	float:left;
+	overflow:hidden;
+	width:45%;
+	margin:0 auto;
+}
+
+.v_inner
+{
+	float:left;
+	width:200px;
+	height:390px;
+	 border-color: #ff9900 grey grey #ff9900 ; 
+ border-radius: 0px 30px 70px 20px;
+ border-width:10px;
+ border-style:solid;
+ padding:10px;
+ padding-top:30px;
+ margin:20px;
+ position:relative;
+}
+.v_inner img
+{
+	margin-left:0px;
+	margin-bottom:30px;
+}
+.h_inner
+{
+	position:relative;
+	width:500px;
+	height:180px;
+	/*border-color: #85C226 #F7C200 #4493A0 #DF127B ;*/
+	border-color: #ff9900 grey grey #ff9900 ; 
+	border-radius: 0px 30px 70px 20px;
+ border-width:10px;
+ border-style:solid;
+ padding:10px;
+ margin:25px 10px 0px 0;
+ 
+
+}
+.h_inner img
+{
+	float:left;
+}
+.h-text
+{
+	width:50%;
+	float:left;
+}
+.v-text,.h-text
+{
+	font-family:'Cantata One', serif; 
+	font-size:14px;
+	line-height:22px;
+	font-style:italic;
+}
+
+img,svg
+{
+	width:150px;
+	height:auto;
+}
+
+#three
+{
+	padding-top:40px;
+}
+
+#four
+{
+padding-top:50px;
+}
+/*span
+{
+	position:absolute;
+	bottom:0px;
+	left:70px;
+	z-index:2;
+	
+	font-size:16px;
+}*/
+i
+{
+	font-size:16px;
+	
+}
+a.pen
+{
+	color:#4493A0;
+	position:absolute;
+	bottom:0px;
+	left:70px;
+	z-index:2;
+	
+	font-size:16px;
+}
+a.pen-v
+{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+	color:#4493A0;
+	
+	font-size:16px;
+}
+
+a.pen:hover,a.pen-v:hover
+{
+	color:#000;
+}
+.brief
+
+{
+	display:none;
+	position:fixed;
+	left:10px;
+	top:50px;
+	width:200px;
+	height:600px;
+	border:1px solid #000;
+	border-radius:10px;
+	text-align:center;
+	padding:10px;
+	color:;
+	font-family:'Eczar', serif;
+	background-color:#f2f2f2;
+
+
+}
+.brief-text
+{
+	display:none;
+
+}
+
+
